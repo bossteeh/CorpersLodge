@@ -5,16 +5,16 @@
   box-sizing: border-box;
   font-family: 'Poppins', 'sans-serif';
 }
-.container{
-    width: 90%;
-    margin: 0 auto;
-    .logotext{
-        font-size: 25px;
-        font-weight: 600;
-        span{
-            color: #83370E;
-        }
+.container {
+  width: 90%;
+  margin: 0 auto;
+  .logotext {
+    font-size: 25px;
+    font-weight: 600;
+    span {
+      color: #83370e;
     }
+  }
 }
 
 header {
@@ -34,11 +34,12 @@ header {
       font-size: 16px;
       font-weight: 400;
       align-items: center;
-      button{
-          background-color: #190E2C;
-          color: #fff;
-          padding: 10px 30px;
-          border-radius: 10px;
+      button {
+        background-color: #190e2c;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        border: 0;
       }
 
       ul {
@@ -50,5 +51,55 @@ header {
         }
       }
     }
+  }
+}
+
+.firstSection {
+  display: flex;
+  align-items: center;
+  .text {
+    width: 50%;
+    align-content: center;
+    justify-content: center;
+    h2{
+        font-size: 45px;
+        span{
+            color: #A44512;
+        }
+    }
+    p{
+        font-size: 15px;
+        font-weight: 300;
+        padding: 40px 0px;
+        width: 80%;
+
+
+    }
+    .btns{
+       justify-content: space-between;
+       display: flex;
+       width: 50%;
+       .learnbtn{
+           background-color: #fff;
+           color: #190e2c;
+           border-radius: 10px;
+           border: 1px solid #190e2c;;
+           
+       }
+    }
+  }
+  .building {
+    padding: 20px 0px;
+    width: 50%;
+    img{
+        width: 40vw;
+    }
+  }
+  button {
+    border: 0;
+    background-color: #190e2c;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
   }
 }

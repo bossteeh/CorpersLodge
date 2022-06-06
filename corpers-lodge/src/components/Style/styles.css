@@ -18,7 +18,7 @@
 }
 
 .container .logotext span {
-  color: #83370E;
+  color: #83370e;
 }
 
 header {
@@ -55,10 +55,11 @@ header nav .links {
 }
 
 header nav .links button {
-  background-color: #190E2C;
+  background-color: #190e2c;
   color: #fff;
   padding: 10px 30px;
   border-radius: 10px;
+  border: 0;
 }
 
 header nav .links ul {
@@ -73,5 +74,72 @@ header nav .links ul {
 
 header nav .links ul li {
   list-style-type: none;
+}
+
+.firstSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.firstSection .text {
+  width: 50%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.firstSection .text h2 {
+  font-size: 45px;
+}
+
+.firstSection .text h2 span {
+  color: #A44512;
+}
+
+.firstSection .text p {
+  font-size: 15px;
+  font-weight: 300;
+  padding: 40px 0px;
+  width: 80%;
+}
+
+.firstSection .text .btns {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+}
+
+.firstSection .text .btns .learnbtn {
+  background-color: #fff;
+  color: #190e2c;
+  border-radius: 10px;
+  border: 1px solid #190e2c;
+}
+
+.firstSection .building {
+  padding: 20px 0px;
+  width: 50%;
+}
+
+.firstSection .building img {
+  width: 40vw;
+}
+
+.firstSection button {
+  border: 0;
+  background-color: #190e2c;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
