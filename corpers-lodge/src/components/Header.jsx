@@ -1,7 +1,9 @@
 import React from 'react';
 import './Style/styles.css'
+import { Fabars, Fatimes } from "react-icons/fa"
     
 const Header = () => {
+
     return ( 
         <header>
             <nav className='navbar container'>
@@ -14,6 +16,7 @@ const Header = () => {
                     <li className="contact">Login</li>
                     <button><li className="contact">Sign Up</li></button>
                 </ul> 
+                <div></div>
             </nav>
         </header>
      );
