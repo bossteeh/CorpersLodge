@@ -5,10 +5,7 @@ const SectionOne = () => {
   return (
     <section className="firstSection container">
       <div className="text">
-        <h2>Find your perfect</h2>
-        <h2>
-          home <span>Anywhere</span>
-        </h2>
+        <h2>Find your perfect home <span>Anywhere</span> </h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis
           orci hendrerit feugiat odio a amet. Vestibulum in eget massa sit id.

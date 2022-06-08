@@ -27,7 +27,7 @@ header {
   background-color: #fef6f1;
   nav {
     // height: 60px;
-    padding: 20px 30px;
+    padding: 20px 0px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -66,23 +66,23 @@ header {
     }
   }
 }
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1000px) {
   header {
     nav {
       ul {
-          line-height: 35px;
+        line-height: 35px;
         list-style: none;
         position: absolute;
         top: 0px;
-    right: 98px;
-    background-color: white;
-    padding: 13px 66px;
+        right: 98px;
+        background-color: white;
+        padding: 13px 66px;
         button {
-            color: #190e2c;
-            border-radius: 10px;
-            border: 1px solid #190e2c;
-            padding: 2px 5px;
-          }
+          color: #190e2c;
+          border-radius: 10px;
+          border: 1px solid #190e2c;
+          padding: 2px 5px;
+        }
       }
     }
   }
@@ -91,12 +91,14 @@ header {
 .firstSection {
   display: flex;
   align-items: center;
+  padding-bottom: 30px;
   .text {
-    width: 50%;
     align-content: center;
     justify-content: center;
     h2 {
-      font-size: 45px;
+      font-size: 55px;
+      padding-top: 20px;
+
       span {
         color: #a44512;
       }
@@ -110,7 +112,19 @@ header {
     .btns {
       justify-content: space-between;
       display: flex;
-      width: 50%;
+      width: 250px;
+      height: 40px;
+      button {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        font-size: 13px;
+        border: 0;
+        background-color: #190e2c;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
       .learnbtn {
         background-color: #fff;
         color: #190e2c;
@@ -126,11 +140,116 @@ header {
       width: 40vw;
     }
   }
-  button {
-    border: 0;
-    background-color: #190e2c;
-    color: #fff;
-    padding: 10px 30px;
-    border-radius: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .firstSection {
+    display: flex;
+    align-items: center;
+    .text {
+      align-content: center;
+      justify-content: center;
+      h2 {
+        padding-top: 20px;
+        font-size: 35px;
+        span {
+          color: #a44512;
+        }
+      }
+      p {
+        font-size: 12px;
+        font-weight: 300;
+        padding: 40px 0px;
+        width: 100%;
+      }
+      .btns {
+        justify-content: space-between;
+        display: flex;
+        height: 40px;
+        gap: 20px;
+        button {
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          font-size: 13px;
+          border: 0;
+          background-color: #190e2c;
+          color: #fff;
+          padding: 10px 20px;
+          border-radius: 5px;
+        }
+        .learnbtn {
+          background-color: #fff;
+          color: #190e2c;
+          border-radius: 5px;
+          border: 1px solid #190e2c;
+        }
+      }
+    }
+    .building {
+      padding: 20px 0px;
+      width: 50%;
+      img {
+        display: none;
+      }
+    }
   }
 }
+.sec2{
+    background-color: #fdf2ed;
+    .secondSection {
+      min-height: 500px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 30px;
+      .image {
+        width: 40%;
+        img {
+          width: 400px;
+          padding: 20px 0px;
+        }
+      }
+      .text {
+        align-content: center;
+        justify-content: center;
+        padding-left: 30px;
+        h2 {
+          font-size: 55px;
+          padding-top: 20px;
+    
+          span {
+            color: #a44512;
+          }
+        }
+        p {
+          font-size: 15px;
+          font-weight: 300;
+          padding: 40px 0px;
+          width: 80%;
+        }
+        .btns {
+            justify-content: space-between;
+            display: flex;
+            width: 250px;
+            height: 40px;
+            button {
+              align-items: center; 
+              justify-content: space-between;
+              display: flex;
+              font-size: 13px;
+              border: 0;
+              background-color: #190e2c;
+              color: #fff;
+              padding: 10px 20px;
+              border-radius: 5px;
+            }
+            .learnbtn {
+              background-color: #fff;
+              color: #190e2c;
+              border-radius: 10px;
+              border: 1px solid #190e2c;
+            }
+          }
+      }
+    }
+}
+
